@@ -7,8 +7,8 @@
       <figure x="320" y="60" shape="rect" sizeInit="0" sizeFinal="40" duration="1000" color="BADA55"/>
    </interaction>
    <interaction playMode="simultaneous">
-      <figure x="120" y="20" shape="circle" sizeInit="0" sizeFinal="20" duration="500" color="09F576"/>
+      <figure x="120" y="20" shape="circle" sizeInit="0" sizeFinal="20" duration="400" color="09F576"/>
       <figure x="259" y="98" shape="rect" sizeInit="0" sizeFinal="50" duration="500" color="345699"/>
-      <figure x="280" y="190" shape="circle" sizeInit="0" sizeFinal="90" duration="2500" color="C45619"/>
+      <figure x="280" y="190" shape="circle" sizeInit="0" sizeFinal="90" duration="600" color="C45619"/>
    </interaction>
 </interactions>
