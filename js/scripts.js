@@ -117,6 +117,7 @@ function draw(){
 			console.log((a.currentTime / a.duration));
 			console.log("Math.PI * (a.currentTime / a.duration) : ");
 			console.log(Math.PI * (a.currentTime / a.duration));
+			context.moveTo(a.x,a.y); // met le point d'ancrage du dessin au milieu du cercle
 			context.arc(a.x,a.y,a.sizeFinal,0,Math.PI * 2 * (a.currentTime / a.duration),false);   // Mouth (clockwise)  
 			// size = a.sizeFinal;
 			// context.arc( a.x, a.y, size, Math.PI/2, Math.PI, false );
