@@ -95,5 +95,5 @@ function tracePie(dataSet){
 }
 
 function fromAS(value) {
-  
+  resultSecondRound(value);
 }
