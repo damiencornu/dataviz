@@ -58,6 +58,12 @@ function tracePie(dataSet){
           plotBorderWidth: null,
           plotShadow: false
       },
+      credits: {
+        enabled: false
+      },
+      exporting: {
+        enabled: false
+      },
       title: {
           text: 'Presidential election results'
       },
@@ -86,4 +92,8 @@ function tracePie(dataSet){
           data: dataSet
       }]
   });
+}
+
+function fromAS(value) {
+  
 }
