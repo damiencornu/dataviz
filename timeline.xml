@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timeline>
+  <mois id="07-11">
+    <evenement>
+      <parti>UMP</parti>
+      <date>12</date>
+      <titre>Meeting</titre>
+    </evenement>
+    <evenement>
+      <parti>UMP</parti>
+      <date>18</date>
+      <titre>Meeting des jeunes de l'UMP</titre>
+    </evenement>
+    <evenement>
+      <parti>PS</parti>
+      <date>14</date>
+      <titre>Meeting Vincennes</titre>
+    </evenement>
+  </mois>
+  <mois id="04-12">
+    <evenement>
+      <parti>Les verts</parti>
+      <date>27</date>
+      <titre>Éva Jolly appelle à voter pour François Hollande au second tour</titre>
+    </evenement>
+    <evenement>
+      <parti>PS</parti>
+      <date>30</date>
+      <titre>Meeting Bercy</titre>
+    </evenement>
+    <evenement>
+      <parti>Front de Gauche</parti>
+      <date>27</date>
+      <titre>Jean-Luc Mélanchon appelle à voter pour François Hollande au second tour</titre>
+    </evenement>
+  </mois>
+</timeline>
