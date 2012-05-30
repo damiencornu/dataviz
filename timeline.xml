@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <timeline>
-  <mois month="07" year="11">
+  <mois id="0" mois="07" annee="11">
     <evenement>
       <parti>UMP</parti>
       <date>12</date>
@@ -17,7 +17,12 @@
       <titre>Meeting Vincennes</titre>
     </evenement>
   </mois>
-  <mois month="04" year="12">
+  <mois id="9" mois="04" annee="12">
+    <evenement>
+      <parti>Les verts</parti>
+      <date>4</date>
+      <titre>Éva Jolly appelle à voter pour François Hollande au second tour</titre>
+    </evenement>
     <evenement>
       <parti>Les verts</parti>
       <date>27</date>
