@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <timeline>
-  <mois id="07-11">
+  <mois month="07" year="11">
     <evenement>
       <parti>UMP</parti>
       <date>12</date>
@@ -17,7 +17,7 @@
       <titre>Meeting Vincennes</titre>
     </evenement>
   </mois>
-  <mois id="04-12">
+  <mois month="04" year="12">
     <evenement>
       <parti>Les verts</parti>
       <date>27</date>
