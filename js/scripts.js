@@ -16,18 +16,32 @@ $(function() {
           var parti = b.getElementsByTagName('parti')[0].childNodes[0].nodeValue,
               date = b.getElementsByTagName('date')[0].childNodes[0].nodeValue + '.' +mois[i].getAttribute('mois') ,
               titre = b.getElementsByTagName('titre')[0].childNodes[0].nodeValue,
-          $evenement = '<div class="event"><div class="cf">';
-          $evenement+= '<div class="aside"><div="pin-parti">';
-          var partiTab = parti.split(',');
+              partiTab = parti.split(',');
+          $evenement = '<div class="event hide cf">';
+          $evenement+= '<div class="aside">';
+          $evenement+= '<div class="pin-parti">';
           for(var k=0; k<partiTab.length; k++){
             $evenement+='<span class="pin-'+partiTab[k]+'"></span>';
           }
-          $evenement+= '</div><!--/.pin-parti-->';
-          $evenement+= '<div class="date">'+date+'</div></div><!--/.aside-->';
+          $evenement+= '</div>';
+          $evenement+= '<div class="date">'+date+'</div>';
+          $evenement+= '</div><!--/.aside-->';
           $evenement+= '<h3>'+titre+'</h3>';
-          $evenement+= '</div><!--/.cf--></div><!--/.event-->';
+          $evenement+= '</div><!--/.event-->';
           $('#mois-'+i).append($evenement);
+        }
+        if(i == moisLength - 1) {
+          showEvents($('#mois-0'));
         }
       }
     });
 });
+
+function showEvents(mois){
+  $('.mois:not(.hide)').addClass('hide');
+  mois.removeClass('hide');
+  mois.find('.event').each(function(num, item){
+    var $this = $(this);
+    $this.delay(num*500).animate({height:'100px'});
+  })
+}
