@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <timeline>
   <mois id="0" mois="07" annee="11">
-    <evenement>
+    <evenement id="1">
       <parti>EELV</parti>
       <date>12</date>
       <titre>Eva Joly remporte les primaires d'EELV.</titre>
@@ -10,173 +10,173 @@
   <mois id="1" mois="08" annee="11">
   </mois>
   <mois id="2" mois="09" annee="11">
-    <evenement>
+    <evenement id="2">
       <parti>PS</parti>
       <date>15</date>
       <titre>Débat télévisé des primaires socialistes</titre>
     </evenement>
   </mois>
   <mois id="3" mois="10" annee="11">
-    <evenement>
+    <evenement id="3">
       <parti>PS</parti>
       <date>16</date>
       <titre>François Hollande remporte les primaires du PS.</titre>
     </evenement>
-    <evenement>
+    <evenement id="4">
       <parti>UMP</parti>
       <date>27</date>
       <titre>Nicolas Sarkozy annonce à la télévision qu'il fera part de ses intentions pour les présidentielles fin janvier début février.</titre>
     </evenement>
   </mois>
   <mois id="4" mois="11" annee="11">
-    <evenement>
+    <evenement id="5">
       <parti>MODEM</parti>
       <date>24</date>
       <titre>Bayrou annonce sa candidature.</titre>
     </evenement>
   </mois>
   <mois id="5" mois="12" annee="11">
-    <evenement>
+    <evenement id="6">
       <parti>EELV</parti>
       <date>1</date>
       <titre>Eva Jolly dévoile son équipe de campagne.</titre>
     </evenement>
   </mois>
   <mois id="6" mois="01" annee="12">
-    <evenement>
+    <evenement id="7">
       <parti>PS</parti>
       <date>22</date>
       <titre>Meeting du Bourget, Hollande : "Mon véritable adversaire n'a pas de nom, pas de visage (...) c'est le monde de la finance."</titre>
     </evenement>
   </mois>
   <mois id="7" mois="02" annee="12">
-    <evenement>
+    <evenement id="8">
       <parti>UMP</parti>
       <date>6</date>
       <titre>La chancelière Angela Merkel apporte son soutien officiel à Nicolas Sarkozy.</titre>
     </evenement>
-    <evenement>
+    <evenement id="9">
       <parti>UMP</parti>
       <date>15</date>
       <titre>Nicolas Sarkozy officialise sur TF1 sa candidature à un second mandat.</titre>
     </evenement>
-    <evenement>
+    <evenement id="10">
       <parti>UMP</parti>
       <date>22</date>
       <titre>Sarkozy invité au 20h de France 2, il fait propositions sur l’emploi.</titre>
     </evenement>
-    <evenement>
+    <evenement id="11">
       <parti>FDG,FN</parti>
       <date>23</date>
       <titre>Débat télévisé houleux sur France 2 entre Jean-Luc Mélanchon et Marine Le Pen.</titre>
     </evenement>
-    <evenement>
+    <evenement id="12">
       <parti>UMP,PS</parti>
       <date>24</date>
       <titre>Le soutien aux entreprises en difficulté s'imposent dans la campagne. M. Sarkozy soutient des projets de reprise. M. Hollande promet une loi obligeant un industriel se désengageant d'une usine française à la céder à un repreneur.</titre>
     </evenement>
-    <evenement>
+    <evenement id="13">
       <parti>UMP,PS</parti>
       <date>27</date>
       <titre>Hollande propose de créer un taux d'imposition à 75% pour les plus hauts revenus, "message de cohésion sociale". M. Sarkozy stigmatise : "une impression d'amateurisme assez consternante".</titre>
     </evenement>
   </mois>
   <mois id="8" mois="03" annee="12">
-	<evenement>
+	<evenement id="14">
       <parti>UMP</parti>
       <date>5</date>
       <titre>Polémique autour de la nourriture halal: le ministre de l'Intérieur Claude Guéant lie droit de vote des immigrés et halal à la cantine, tandis que le Premier ministre François Fillon suggère aux juifs et musulmans de revenir sur leurs traditions d'abattage rituel. Vives réactions des communautés juives et musulmanes qui ne veulent pas servir de boucs émissaires.</titre>
     </evenement>
-    <evenement>
+    <evenement id="15">
       <parti>UMP</parti>
       <date>8</date>
       <titre>Sarkozy annonce pour la première fois publiquement qu'il mettra un point final à sa vie politique s'il est battu à la présidentielle.</titre>
     </evenement>
-    <evenement>
+    <evenement id="16">
       <parti>UMP</parti>
       <date>11</date>
       <titre>Grand meeting à Villepinte (Seine-Saint-Denis), Nicolas Sarkozy réclame une "révision" des accords de Schengen pour mieux contrôler l'immigration aux frontières de l'Europe.</titre>
     </evenement>
-    <evenement>
+    <evenement id="17">
       <parti>All</parti>
       <date>19</date>
       <titre>La campagne est brutalement mise en veille après l'affaire Mohamed Merah, qui a tué sept personnes, dont trois enfants d'une école juive, à Toulouse et Montauban. Il est abattu le 22 par le Raid.</titre>
     </evenement>
-    <evenement>
+    <evenement id="18">
       <parti>All</parti>
       <date>19</date>
       <titre>Le Conseil constitutionnel a validé dix candidatures à l'élection présidentielle.</titre>
     </evenement>
   </mois>
   <mois id="9" mois="04" annee="12">
-	<evenement>
+	<evenement id="19">
       <parti>DLR</parti>
       <date>11</date>
       <titre>Nicolas Dupont-Aignan déclare "Je ne suis pas à vendre, je ne suis pas à louer !" à propos des consignes de vote pour le second tour.</titre>
     </evenement>
-	<evenement>
+	<evenement id="20">
       <parti>All</parti>
       <date>11</date>
       <titre>Les 10 candidats participent à l’émission “Des paroles et des actes” sur France2.</titre>
     </evenement>
-    <evenement>
+    <evenement id="21">
       <parti>PS</parti>
       <date>12</date>
       <titre>Pour la première fois, François Hollande clame sa foi en la victoire: "On va gagner", lance-t-il lors d'un meeting à Clermont-Ferrand.</titre>
     </evenement>
-    <evenement>
+    <evenement id="22">
       <parti>UMP</parti>
       <date>15</date>
       <titre>"Aidez-moi, aidez la France", demande Nicolas Sarkozy, place de la Concorde.</titre>
     </evenement>
-    <evenement>
+    <evenement id="23">
       <parti>PS</parti>
       <date>15</date>
       <titre>Sur l'esplanade du château de Vincennes, François Hollande réplique au meeting de la concorde : "Vous m'avez demandé de vous rassembler, c'est fait, de réaliser l'alternance, ça vient, et de réussir le changement, c'est demain."</titre>
     </evenement>
-    <evenement>
+    <evenement id="24">
       <parti>PS</parti>
       <date>17</date>
       <titre>Plusieurs personnalités associées à la droite se rallient à François Hollande, dont deux ex-membres du gouvernement Fillon, Martin Hirsch et Fadela Amara.</titre>
     </evenement>
-    <evenement>
+    <evenement id="25">
       <parti>All</parti>
       <date>22</date>
       <titre>Avec 28,63% des suffrages exprimés, François Hollande devance Nicolas Sarkozy (27,18%) au premier tour, mais la surprise vient du Front national. Marine Le Pen atteint 17,90%, le plus haut score réalisé par le FN à une présidentielle. La course s'engage pour gagner les électeurs frontistes.</titre>
     </evenement>
-	<evenement>
+	<evenement id="26">
       <parti>PS</parti>
       <date>29</date>
       <titre>A Paris-Bercy, François Hollande s'élève contre ceux qui "jouent avec le feu" en mettant l'immigration et "l'étranger au coeur de cette campagne".</titre>
     </evenement>
   </mois>
   <mois id="10" mois="05" annee="12">
-    <evenement>
+    <evenement id="27">
       <parti>UMP</parti>
       <date>1</date>
       <titre>Bras-de-fer entre les syndicats, qui mobilisent des dizaines de milliers de salariés, M. Sarkozy, en meeting géant au Trocadéro, les somme de "poser le drapeau rouge".</titre>
     </evenement>
-    <evenement>
+    <evenement id="28">
       <parti>FN</parti>
       <date>1</date>
       <titre>Marine Le Pen annonce qu'elle "votera blanc" le 6 mai.</titre>
     </evenement>
-    <evenement>
+    <evenement id="29">
       <parti>PS,UMP</parti>
       <date>2</date>
       <titre>François Hollande et Nicolas Sarkozy s'opposent pendant près de trois heures avec virulence, de la dette à l'immigration en passant par le style de présidence, rendant coup pour coup lors d'un débat suivi par 17,79 millions de téléspectateurs.</titre>
     </evenement>
-    <evenement>
+    <evenement id="30">
       <parti>PS</parti>
       <date>3</date>
       <titre>François Hollande est présenté comme le favori par les sondages.</titre>
     </evenement>
-    <evenement>
+    <evenement id="31">
       <parti>MODEM</parti>
       <date>3</date>
       <titre>François Bayrou annonce qu'il votera pour François Hollande.</titre>
     </evenement>
-    <evenement>
+    <evenement id="32">
       <parti>All</parti>
       <date>6</date>
       <titre>Résultat du 2ème tour : François Hollande remporte les élections avec 51,64%, Nicolas Sarkozy obtient 48,36%.</titre>
