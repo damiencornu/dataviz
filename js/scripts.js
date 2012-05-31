@@ -45,3 +45,7 @@ function showEvents(mois){
     $this.delay(num*500).animate({height:'100px'});
   })
 }
+
+function sendMonth(moisId){
+  showEvents($('#mois-'+moisId));
+}
