@@ -153,6 +153,7 @@ body { font-family: DINPro, sans-serif; }
       #evenements .aside .pin-parti span.pin-DLR { background-position:-119px 0; }
       #evenements .aside .pin-parti span.pin-All { width:38px; background-position:-142px 0; }
 
+  #sondages { height:400px; overflow-y:scroll; }
   #sondages header h2 { font-weight:bold; text-transform:uppercase; font-size:25px; }
   #sondage .mois.hide { display:none; }
   #sondage .sondage { height:50px; margin-bottom:5px; }
@@ -194,3 +195,5 @@ body { font-family: DINPro, sans-serif; }
     #sondage .sondage.parti-EELV .nom-parti {  color:#7ab51b;}
     #sondage .sondage.parti-NPA .nom-parti {   color:#FFD53E;}
     #sondage .sondage.parti-DLR .nom-parti {   color:#3B4F9F;}
+footer { position:fixed; bottom:0; width:100%; background-color:#000000; }
+  footer p { color:#a5a5a5; font-size:12px; }
