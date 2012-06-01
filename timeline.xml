@@ -8,15 +8,35 @@
     </evenement>
   </mois>
   <mois id="1" mois="08" annee="11">
+	<evenement id="100">
+      <parti>PS</parti>
+      <date>23</date>
+      <titre>Le juge Michael J.Obus décide d'abandonner les poursuites au pénal contre DSK en raison du manque de crédibilité de Nafissatou Diallo.</titre>
+    </evenement>
   </mois>
   <mois id="2" mois="09" annee="11">
     <evenement id="2">
       <parti>PS</parti>
       <date>15</date>
-      <titre>Débat télévisé des primaires socialistes</titre>
+      <titre>Débat télévisé des primaires socialistes.</titre>
+    </evenement>
+    <evenement id="102">
+      <parti>PS</parti>
+      <date>28</date>
+      <titre>Deuxième débat télévisé des primaires socialistes.</titre>
     </evenement>
   </mois>
   <mois id="3" mois="10" annee="11">
+	<evenement id="103">
+      <parti>PS</parti>
+      <date>9</date>
+      <titre>Première tour des primaires socialistes : Hollande arrive en tête.</titre>
+    </evenement>
+	<evenement id="105">
+      <parti>PS</parti>
+      <date>12</date>
+      <titre>Débat Aubry-Hollande, Martine Aubry déclare : "J'ai dis et je le redis (...) qu'il faut une gauche qui ne soit pas molle".</titre>
+    </evenement>
     <evenement id="3">
       <parti>PS</parti>
       <date>16</date>
@@ -34,12 +54,27 @@
       <date>24</date>
       <titre>Bayrou annonce sa candidature.</titre>
     </evenement>
+	<evenement id="110">
+      <parti>EELV,PS</parti>
+      <date>16</date>
+      <titre>La polémique prends de l'ampleur entre le PS et EELV après qu'un paragraphe sur le combustible nucléaire MOX ait été retiré de l'accord. Areva admet avoir appelé l'équipe de François Hollande à ce sujet.</titre>
+    </evenement>
+	<evenement id="111">
+      <parti>EELV,PS</parti>
+      <date>17</date>
+      <titre>Un accord est finalement trouvé sur le nucléaire entre le PS et EELV.</titre>
+    </evenement>
   </mois>
   <mois id="5" mois="12" annee="11">
     <evenement id="6">
       <parti>EELV</parti>
       <date>1</date>
       <titre>Eva Jolly dévoile son équipe de campagne.</titre>
+    </evenement>
+    <evenement id="116">
+      <parti>PS</parti>
+      <date>25</date>
+      <titre>François Hollande se déplace à Berlin où il rencontre les socialiste allemands et il lance : "Wir gewinnen zusammen !".</titre>
     </evenement>
   </mois>
   <mois id="6" mois="01" annee="12">
