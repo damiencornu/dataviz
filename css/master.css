@@ -113,11 +113,34 @@ table { border-collapse: collapse; border-spacing: 0; }
 body { font-family: DINPro, sans-serif; }
 
 #timeline { border-bottom: 1px solid #dcdcdc; }
-section { width:679px; border-right:1px solid #DCDCDC; float:left; margin-right:10px; min-height:400px;}
-  section header { position:relative; line-height:25px; height:25px; margin:10px 0 5px;}
-    section header h2 { position:absolute; left:0; top:0; font-weight:bold; text-transform:uppercase; font-size:25px; margin:0; }
-    section header p { position:absolute; right:20px; top:5px; margin:0; }
-  #evenements .mois.hide { display:none; }
-    #evenements .event { overflow:hidden; }
-    #evenements .event.hide {height:0;}
-    #evenements .aside { float:left; width:59px; }
+#content { width:1080px;margin:-5px auto 0;background:#f2f2f2;display:inline-block;border-right:1px solid #DCDCDC;border-left:1px solid #DCDCDC;}
+	#content #sondages { width:371px;float:right;}
+	#content header p { font-size:12px;font-weight:bold;color:#808080 }
+	#content header p a { text-decoration:none;color:#808080; }
+	#content header p a.active { color:black }
+	#content section.cf { width:659px;margin-left:20px; border-right:1px solid #DCDCDC; float:left; min-height:400px;}
+	section header { position:relative; line-height:25px; height:25px; margin:10px 0 5px;}
+		section header h2 { position:absolute; left:0; top:0; font-weight:bold; text-transform:uppercase; font-size:25px; margin:0; }
+		section header p { position:absolute; right:20px; top:5px; margin:0; }
+	#evenements {  }
+	#evenements .mois.hide { display:none; }
+	#evenements .event { overflow:hidden; }
+	#evenements .event.hide {height:0;}
+ 	#evenements .aside { width:40px;float:left;height:100%;margin-top:24px}
+ 	#evenements h3 { text-transform:uppercase;font-weight:400}
+ 	#evenements .aside .date { color:#1964aa;font-weight:bold;font-size:12px;line-height:25px}
+ 		#evenements .aside .pin-parti { width:17px;height:17px;background: url('../sprite_cone.png') no-repeat 0 0; }
+ 		#evenements .parti-PS .aside  .date { color:#e30040; }
+ 		#evenements .parti-PS .aside .pin-parti { background-position:-17px 0; }
+ 		#evenements .parti-FN .aside .date { color:#6243C8; }
+ 		#evenements .parti-FN .aside .pin-parti { background-position:-34px 0; }
+ 		#evenements .parti-FDG .aside .date { color:#D0231A; }
+ 		#evenements .parti-FDG .aside .pin-parti { background-position:-51px 0; }
+ 		#evenements .parti-MODEM .aside .date {  color:#FB8733; }
+ 		#evenements .parti-MODEM .aside .pin-parti { background-position:-68px 0; }
+ 		#evenements .parti-EELV .aside .date {  color:#7ab51b; }
+ 		#evenements .parti-EELV .aside .pin-parti { background-position:-85px 0; }
+ 		#evenements .parti-DLR .aside .date {  color:#FFD53E; }
+ 		#evenements .parti-DLR .aside .pin-parti { background-position:-102px 0; }
+ 		#evenements .parti-NPA .aside .date {  color:#3B4F9F; }
+ 		#evenements .parti-NPA .aside .pin-parti { background-position:-119px 0; }
