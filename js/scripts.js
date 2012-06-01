@@ -107,6 +107,9 @@ function showEvents(moisId){
     $this.delay(num*300).animate({height:'90px'}, 250);
   });
   if(sondage.length>0){
+    $('#sondage .mois:not(.hide)').find('.sondage .graph span').each(function() {
+      $(this).css('width',0);
+    });
     $('#sondage .mois:not(.hide)').addClass('hide');
     sondage.removeClass('hide');
     sondage.find('.sondage .graph').each(function(num, item){
