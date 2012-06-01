@@ -17,7 +17,7 @@ $(function() {
               date = b.getElementsByTagName('date')[0].childNodes[0].nodeValue + '.' +mois[i].getAttribute('mois') ,
               titre = b.getElementsByTagName('titre')[0].childNodes[0].nodeValue,
               partiTab = parti.split(',');
-          $evenement = '<div class="event hide cf">';
+          $evenement = '<div class="event hide cf parti-'+parti+'">';
           $evenement+= '<div class="aside">';
           $evenement+= '<div class="pin-parti">';
           for(var k=0; k<partiTab.length; k++){
