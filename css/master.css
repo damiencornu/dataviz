@@ -120,29 +120,29 @@ body { font-family: DINPro, sans-serif; }
 
 #timeline { border-bottom: 1px solid #dcdcdc; }
 #content { width:1080px;margin:-5px auto 0;background:#f2f2f2;display:inline-block;border-right:1px solid #DCDCDC;border-left:1px solid #DCDCDC;}
-	#content #sondages { width:371px;float:right;}
-	#content header p { font-size:12px;font-weight:bold;color:#808080 }
-	#content header p a { text-decoration:none;color:#808080; }
-	#content header p a.active { color:black }
-	#content section.cf { width:659px;margin-left:20px; border-right:1px solid #DCDCDC; float:left; height:400px;overflow-y:scroll;}
-	section header { position:relative; line-height:25px; height:25px; margin:10px 0 5px;}
-		section header h2 { position:absolute; left:0; top:0; font-weight:bold; text-transform:uppercase; font-size:25px; margin:0; }
-		section header p { display:none; position:absolute; right:20px; top:5px; margin:0; }
-	#evenements {  }
-	#evenements .mois.hide { display:none; }
-	#evenements .event { overflow:hidden; }
-	#evenements .event.hide {height:0;}
- 	#evenements .aside { width:40px;float:left;height:100%;margin-top:24px}
- 	#evenements h3 { text-transform:uppercase;font-weight:400; padding-right:40px;}
- 	#evenements .aside .date { color:#1964aa;font-weight:bold;font-size:12px;line-height:25px}
- 		#evenements .aside .pin-parti { width:30px; height:20px; position:relative; }
- 		#evenements .parti-PS .aside  .date { color:#e30040; }
- 		#evenements .parti-FN .aside .date { color:#6243C8; }
- 		#evenements .parti-FDG .aside .date { color:#D0231A; }
- 		#evenements .parti-MODEM .aside .date {  color:#FB8733; }
- 		#evenements .parti-EELV .aside .date {  color:#7ab51b; }
- 		#evenements .parti-NPA .aside .date {  color:#FFD53E; }
- 		#evenements .parti-DLR .aside .date {  color:#3B4F9F; }
+  #content #sondages { width:371px;float:right;}
+  #content header p { font-size:12px;font-weight:bold;color:#808080 }
+  #content header p a { text-decoration:none;color:#808080; }
+  #content header p a.active { color:black }
+  #content section.cf { width:659px;margin-left:20px; border-right:1px solid #DCDCDC; float:left; height:400px;overflow-y:scroll;}
+  section header { position:relative; line-height:25px; height:25px; margin:10px 0 5px;}
+    section header h2 { position:absolute; left:0; top:0; font-weight:bold; text-transform:uppercase; font-size:25px; margin:0; }
+    section header p { display:none; position:absolute; right:20px; top:5px; margin:0; }
+  #evenements {  }
+  #evenements .mois.hide { display:none; }
+  #evenements .event { overflow:hidden; }
+  #evenements .event.hide {height:0;}
+  #evenements .aside { width:40px;float:left;height:100%;margin-top:24px}
+  #evenements h3 { text-transform:uppercase;font-weight:400; padding-right:40px;}
+  #evenements .aside .date { color:#1964aa;font-weight:bold;font-size:12px;line-height:25px}
+    #evenements .aside .pin-parti { width:30px; height:20px; position:relative; }
+    #evenements .parti-PS .aside  .date { color:#e30040; }
+    #evenements .parti-FN .aside .date { color:#6243C8; }
+    #evenements .parti-FDG .aside .date { color:#D0231A; }
+    #evenements .parti-MODEM .aside .date {  color:#FB8733; }
+    #evenements .parti-EELV .aside .date {  color:#7ab51b; }
+    #evenements .parti-NPA .aside .date {  color:#FFD53E; }
+    #evenements .parti-DLR .aside .date {  color:#3B4F9F; }
     #evenements .aside .pin-parti span { width:17px; height:17px; display:block; background: url('assets/sprite_cone.png') no-repeat 0 0; position:absolute; top:0; }
       #evenements .aside .pin-parti span.pin-PS { background-position:-17px 0; }
       #evenements .aside .pin-parti span.pin-FN { background-position:-34px 0; }
@@ -152,4 +152,45 @@ body { font-family: DINPro, sans-serif; }
       #evenements .aside .pin-parti span.pin-NPA { background-position:-102px 0; }
       #evenements .aside .pin-parti span.pin-DLR { background-position:-119px 0; }
       #evenements .aside .pin-parti span.pin-All { width:38px; background-position:-142px 0; }
- #sondages header h2 { font-weight:bold; text-transform:uppercase; font-size:25px; }
+
+  #sondages header h2 { font-weight:bold; text-transform:uppercase; font-size:25px; }
+  #sondage .mois.hide { display:none; }
+  #sondage .sondage { height:50px; margin-bottom:5px; }
+  #sondage .sondage img { float:left; margin-right:10px; border:3px solid black;}
+    #sondage .sondage.parti-UMP img { border-color:#1964aa; }
+    #sondage .sondage.parti-PS img { border-color:#e30040; }
+    #sondage .sondage.parti-FN img { border-color:#6243C8; }
+    #sondage .sondage.parti-FDG img { border-color:#D0231A; }
+    #sondage .sondage.parti-MODEM img { border-color:#FB8733; }
+    #sondage .sondage.parti-EELV img { border-color:#7ab51b; }
+    #sondage .sondage.parti-NPA img { border-color:#FFD53E; }
+    #sondage .sondage.parti-DLR img { border-color:#3B4F9F; }
+  #sondage .sondage div.floatLeft { float:left; margin:0 20px;}
+  #sondage .sondage .chiffres { color:#A5A5A5; font-size:14px; margin:2px 0; }
+    #sondage .sondage.parti-UMP  .chiffres span {  color:#1964aa;}
+    #sondage .sondage.parti-PS .chiffres span {    color:#e30040;}
+    #sondage .sondage.parti-FN .chiffres span {    color:#6243C8;}
+    #sondage .sondage.parti-FDG .chiffres span {   color:#D0231A;}
+    #sondage .sondage.parti-MODEM .chiffres span { color:#FB8733; }
+    #sondage .sondage.parti-EELV .chiffres span {  color:#7ab51b;}
+    #sondage .sondage.parti-NPA .chiffres span {   color:#FFD53E;}
+    #sondage .sondage.parti-DLR .chiffres span {   color:#3B4F9F;}
+  #sondage .sondage .graph { height:6px; position:relative; margin:0; width:270px; }
+    #sondage .sondage .graph span { height:6px; position:absolute; top:0; left:0; }
+      #sondage .sondage.parti-UMP .graph span {   background-color:#1964aa;}
+      #sondage .sondage.parti-PS .graph span {    background-color:#e30040;}
+      #sondage .sondage.parti-FN .graph span {    background-color:#6243C8;}
+      #sondage .sondage.parti-FDG .graph span {   background-color:#D0231A;}
+      #sondage .sondage.parti-MODEM .graph span { background-color:#FB8733; }
+      #sondage .sondage.parti-EELV .graph span {  background-color:#7ab51b;}
+      #sondage .sondage.parti-NPA .graph span {   background-color:#FFD53E;}
+      #sondage .sondage.parti-DLR .graph span {   background-color:#3B4F9F;}
+  #sondage .nom-parti { font-size:14px; margin:2px 0; }
+    #sondage .sondage.parti-UMP .nom-parti {  color:#1964aa;}
+    #sondage .sondage.parti-PS .nom-parti {    color:#e30040;}
+    #sondage .sondage.parti-FN .nom-parti {    color:#6243C8;}
+    #sondage .sondage.parti-FDG .nom-parti {   color:#D0231A;}
+    #sondage .sondage.parti-MODEM .nom-parti { color:#FB8733; }
+    #sondage .sondage.parti-EELV .nom-parti {  color:#7ab51b;}
+    #sondage .sondage.parti-NPA .nom-parti {   color:#FFD53E;}
+    #sondage .sondage.parti-DLR .nom-parti {   color:#3B4F9F;}
