@@ -16,12 +16,16 @@ $(function() {
           var parti = b.getElementsByTagName('parti')[0].childNodes[0].nodeValue,
               date = b.getElementsByTagName('date')[0].childNodes[0].nodeValue + '.' +mois[i].getAttribute('mois') ,
               titre = b.getElementsByTagName('titre')[0].childNodes[0].nodeValue,
-              partiTab = parti.split(',');
-          $evenement = '<div class="event hide cf parti-'+parti+'">';
+              partiTab = parti.split(','),
+              partiClass = '';
+              for (var l=0; l<partiTab.length; l++){
+                partiClass+= ' parti-'+partiTab[l];
+              }
+          $evenement = '<div class="event hide cf'+partiClass+'">';
           $evenement+= '<div class="aside">';
           $evenement+= '<div class="pin-parti">';
           for(var k=0; k<partiTab.length; k++){
-            $evenement+='<span class="pin-'+partiTab[k]+'"></span>';
+            $evenement+='<span class="pin-'+partiTab[k]+'" style="left:'+k*12+'px"></span>';
           }
           $evenement+= '</div>';
           $evenement+= '<div class="date">'+date+'</div>';
@@ -42,7 +46,7 @@ function showEvents(mois){
   mois.removeClass('hide');
   mois.find('.event').each(function(num, item){
     var $this = $(this);
-    $this.delay(num*500).animate({height:'100px'});
+    $this.delay(num*300).animate({height:'90px'}, 250);
   })
 }
 
